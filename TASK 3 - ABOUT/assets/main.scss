@@ -1,0 +1,9 @@
+@import "./scss/abstracts/";
+@import "./scss/components";
+
+body{
+  background-color: $softWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
