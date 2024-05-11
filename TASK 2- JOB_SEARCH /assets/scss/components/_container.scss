@@ -1,5 +1,5 @@
 // Back Container
-.backContainer{
+.back-content{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10,17 +10,10 @@
   border-radius: 30px;
 }
 
-//Front Container
 
 
-.job__item{
-  color: yellow;
-  :hover{
-    color: red;
-  }
-}
 
-.frontContainer{
+.job{
   display: grid;
   position: absolute;
   top: 50%;
@@ -34,7 +27,7 @@
   gap: 30px;
 
 
-  &__search{
+  .search{
     display: flex;
     justify-content: space-around;
     height: 50px;
@@ -85,7 +78,7 @@
   }
   
 
-  &__jobs{
+  &__list{
     text-align: center;
     align-items: center;
     justify-content: center;
