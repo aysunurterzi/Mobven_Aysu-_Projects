@@ -28,7 +28,7 @@
   background-color: rgb(255, 217, 201);
 }
 
-.backContainer {
+.back-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -39,34 +39,23 @@
   border-radius: 30px;
 }
 
-.job__item {
-  color: yellow;
-}
-.job__item :hover {
-  color: red;
-}
-
-.frontContainer {
+.job {
+  justify-content: center;
+  align-items: center;
   display: grid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: auto;
   background-color: white;
   border-radius: 30px;
-  padding: 60px 75px;
+  padding: 72px;
   gap: 30px;
 }
-.frontContainer__search {
+.job .search {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 50px;
   display: flex;
   gap: 16px 8px;
 }
-.frontContainer__search-box {
+.job .search-box {
   width: 300px;
   display: flex;
   gap: 16px 8px;
@@ -75,29 +64,29 @@
   padding: 8px;
   align-items: center;
 }
-.frontContainer__search-input {
+.job .search-input {
   border: none;
   min-width: 200px;
 }
-.frontContainer__search-input::-moz-placeholder {
+.job .search-input::-moz-placeholder {
   font-family: "Poppins";
   font-size: 12px;
   font-weight: 500;
   color: rgb(40, 26, 81);
   opacity: 0.4;
 }
-.frontContainer__search-input::placeholder {
+.job .search-input::placeholder {
   font-family: "Poppins";
   font-size: 12px;
   font-weight: 500;
   color: rgb(40, 26, 81);
   opacity: 0.4;
 }
-.frontContainer__search-input:focus {
+.job .search-input:focus {
   border: none;
   outline: none;
 }
-.frontContainer__search-mapbtn {
+.job .search-mapbtn {
   width: 120px;
   background-color: rgb(40, 26, 81);
   border: none;
@@ -108,47 +97,55 @@
   justify-content: center;
   gap: 10px;
 }
-.frontContainer__jobs {
+.job__list {
   text-align: center;
   align-items: center;
   justify-content: center;
-  display: grid;
-  gap: 15px;
-}
-.frontContainer__jobs-row {
-  font-family: "Poppins";
-  color: rgb(40, 26, 81);
-  font-size: 14px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
-.frontContainer__jobs-smallbox {
-  align-items: center;
-  width: 100px;
-  height: 100px;
+.job__item {
+  flex: 0 0 calc(25% - 10px);
+  height: 60px;
   border-radius: 8px;
-  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
-.frontContainer__jobs-smallbox p {
+.job__name {
   margin: 0px;
+}
+.job .-pink {
+  background-color: rgb(255, 236, 236);
+}
+.job .-purple {
+  background-color: rgb(247, 236, 255);
+}
+.job .-blue {
+  background-color: rgb(236, 240, 255);
+}
+.job .-turquoise {
+  background-color: rgb(215, 249, 243);
+}
+.job .-green {
+  background-color: rgb(226, 255, 212);
+}
+.job .-yellow {
+  background-color: rgb(255, 243, 201);
+}
+.job .-orange {
+  background-color: rgb(255, 217, 201);
 }
 
 .title {
   font-size: 18px;
   font-weight: 700;
 }
-.title.sm {
-  font-size: 14px;
-}
-.title.md {
-  font-size: 22px;
-}
-.title.xl {
-  font-size: 26px;
-}
 
 body {
   background-color: rgb(247, 244, 255);
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

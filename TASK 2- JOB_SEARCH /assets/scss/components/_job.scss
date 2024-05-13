@@ -10,26 +10,19 @@
   border-radius: 30px;
 }
 
-
-
-
 .job{
+  justify-content: center;
+  align-items: center;
   display: grid;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  height: auto;
   background-color: $white;
   border-radius: 30px;
-  padding: 60px 75px;
+  padding: 72px;
   gap: 30px;
 
 
   .search{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
     display: flex;
     gap: 16px 8px;
@@ -82,37 +75,49 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    display: grid;
-    gap: 15px;
-
-    &-row{
-    font-family: $Poppins;
-    color: $darkPurple;
-    font-size: 14px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
+  }
+
+  &__item{
+    flex: 0 0 calc(25% - 10px);  
+    height: 60px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  &__name{
+    margin: 0px;
+  }
 
 
-    }
-
-    &-smallbox{
-      align-items: center;
-      width: $xxsmall;
-      height: $xxsmall;
-      border-radius: 8px;
-      border: 1px solid black;
-
-      p{
-        margin: 0px;
-      }
-
-
-    }
-
+  .-pink{
+    background-color: $babyPink;
+  }
+  .-purple{
+    background-color: $babyPurple;
+  }
+  .-blue{
+    background-color: $babyBlue;
+  }
+  .-turquoise{
+    background-color: $babyTurquoise;
+  }
+  .-green{
+    background-color: $babyGreen;
+  }
+  .-yellow{
+    background-color: $babyYellow;
+  }
+  .-orange{
+    background-color: $babyOrange;
+  }
+  
     
 
 }
 
-}
