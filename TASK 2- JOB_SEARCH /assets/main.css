@@ -47,6 +47,7 @@
   border-radius: 30px;
   padding: 72px;
   gap: 30px;
+  width: 450px;
 }
 .job .search {
   display: flex;
@@ -100,19 +101,25 @@
 .job__list {
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
+.job__list :hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0px 14px 16px rgba(41, 11, 128, 0.1);
+}
 .job__item {
-  flex: 0 0 calc(25% - 10px);
+  flex: 0 0 60px;
   height: 60px;
   border-radius: 8px;
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+}
+.job__item :hover {
+  box-shadow: none;
 }
 .job__name {
   margin: 0px;
@@ -137,6 +144,10 @@
 }
 .job .-orange {
   background-color: rgb(255, 217, 201);
+}
+.job .-border {
+  border: 1px solid #DBD5EC;
+  border-radius: 8px;
 }
 
 .title {
