@@ -160,11 +160,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0px 14px 16px rgba(41, 11, 128, 0.1);
 }
 
-.title {
-  font-size: 18px;
-  font-weight: 700;
-}
-
 body {
   background-color: rgb(247, 244, 255);
   display: flex;
