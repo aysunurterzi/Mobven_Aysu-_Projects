@@ -3,6 +3,7 @@ Projects of this nature consist of the web coding of free figma designs on the [
 
 There are two branches in the project. 
 First-version: is the complex version I wrote when I started coding. 
+
 Second-version: covers the final version of the project. This is a part I did to compare my codes later and see how much I improved.
 
 
