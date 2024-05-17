@@ -12,7 +12,7 @@ The link below is the link to the figma file I referenced:
 
 
 ### Demo photo of my task 1 project:
-<img width="570" alt="Ekran Resmi 2024-05-17 13 10 36" src="">
+<img width="570" alt="" src="">
 
 
 
@@ -37,4 +37,4 @@ https://www.uidesigndaily.com/posts/figma-about-card-details-day-1525
 
 
 ### Demo photo of my task 3 project:
-<img width="570" alt="Ekran Resmi 2024-05-17 13 10 36" src="">
+<img width="570" alt="" src="">
