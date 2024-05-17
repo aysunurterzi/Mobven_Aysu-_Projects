@@ -2,7 +2,7 @@
 
 This project provides a simple, visually appealing interface for users to search for part-time jobs. The interface is created using HTML and styled with SCSS to ensure a modern and responsive design.
 
-The link below is the link to the figma file:
+The link below is the link to the figma file I referenced:
 https://www.uidesigndaily.com/posts/figma-search-categories-day-1552
 
 <center>
