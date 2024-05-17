@@ -1,4 +1,4 @@
-#TASK 2- JOB_SEARCH
+### TASK 2- JOB_SEARCH
 
 This project provides a simple, visually appealing interface for users to search for part-time jobs. The interface is created using HTML and styled with SCSS to ensure a modern and responsive design.
 <center>
