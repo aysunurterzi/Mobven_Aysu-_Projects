@@ -1,13 +1,8 @@
-// Back Container
-.back-content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: $big;
-  height: 570px;
-  background-color: $softGrey;
-  border-radius: 30px;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .job{
@@ -16,10 +11,21 @@
   display: grid;
   background-color: $white;
   border-radius: 30px;
-  padding: 72px;
+  padding: 60px;
   gap: 30px;
   width: 450px;
 
+  &::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 570px;
+    background-color: $softGrey;
+    border-radius: 30px;
+  }
 
   .search{
     display: flex;
@@ -128,6 +134,11 @@
   .-border{
     border: 1px solid #DBD5EC;
     border-radius: 8px;
+  }
+
+  .-active{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0px 14px 16px rgba(41, 11, 128, 0.1);
+
   }
     
 
